@@ -1,10 +1,9 @@
-```html
 <!DOCTYPE html>
 <html lang="cs">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>COD Friends Ranking</title>
+<title>Friends Ranking</title>
 
 <style>
 * {
@@ -193,10 +192,7 @@ nav a.active {
     border-radius: 10px;
 }
 
-.arrow {
-    font-size: 35px;
-    color: #687083;
-}
+/* BARVY PODLE SKÓRE */
 
 .green {
     color: #35e27a;
@@ -238,6 +234,11 @@ nav a.active {
     background: #a45cff;
 }
 
+.arrow {
+    font-size: 35px;
+    color: #687083;
+}
+
 .stats {
     display: flex;
     gap: 20px;
@@ -269,6 +270,8 @@ footer {
     color: #666d7f;
     padding: 35px;
 }
+
+/* MOBIL */
 
 @media(max-width: 700px) {
 
@@ -342,7 +345,10 @@ footer {
 <body>
 
 <header>
-    <div class="logo">👑 COD <span>RANKING</span></div>
+
+    <div class="logo">
+        👑 FRIENDS <span>RANKING</span>
+    </div>
 
     <nav>
         <a class="active" href="#">ŽEBŘÍČEK</a>
@@ -351,280 +357,531 @@ footer {
         <a href="#">O NÁS</a>
     </nav>
 
-    <button class="theme">🌙 TMAVÝ REŽIM</button>
+    <button class="theme">
+        🌙 TMAVÝ REŽIM
+    </button>
+
 </header>
+
 
 <div class="container">
 
     <div class="title">
-        <div class="trophy">🏆</div>
-        <h1>CALL OF DUTY <span>RANKING</span></h1>
-        <p>Žebříček hráčů podle skillu</p>
+
+        <div class="trophy">
+            🏆
+        </div>
+
+        <h1>
+            FRIENDS <span>RANKING</span>
+        </h1>
+
+        <p>
+            Žebříček hráčů podle skillu v Call of Duty
+        </p>
+
     </div>
 
 
-    <!-- 1 -->
-    <div class="card">
-        <div class="rank first">1</div>
+    <!-- 1. ZDENA -->
 
-        <img class="avatar" src="https://i.pravatar.cc/200?img=12">
+    <div class="card">
+
+        <div class="rank first">
+            1
+        </div>
+
+        <img class="avatar"
+             src="https://i.pravatar.cc/200?img=12">
 
         <div class="info">
-            <div class="name">Zdena</div>
-            <div class="description">Top player.</div>
+
+            <div class="name">
+                Zdena
+            </div>
+
+            <div class="description">
+                Top player.
+            </div>
+
         </div>
 
         <div class="score-box green">
-            <div class="score">8.8<small>/10</small></div>
+
+            <div class="score">
+                8.8<small>/10</small>
+            </div>
+
             <div class="bar">
                 <div class="fill" style="width:88%"></div>
             </div>
+
         </div>
 
-        <div class="arrow">›</div>
+        <div class="arrow">
+            ›
+        </div>
+
     </div>
 
 
-    <!-- 2 -->
-    <div class="card">
-        <div class="rank second">2</div>
+    <!-- 2. DEJV -->
 
-        <img class="avatar" src="https://i.pravatar.cc/200?img=11">
+    <div class="card">
+
+        <div class="rank second">
+            2
+        </div>
+
+        <img class="avatar"
+             src="https://i.pravatar.cc/200?img=11">
 
         <div class="info">
-            <div class="name">Dejv</div>
-            <div class="description">Strong player.</div>
+
+            <div class="name">
+                Dejv
+            </div>
+
+            <div class="description">
+                Strong player.
+            </div>
+
         </div>
 
         <div class="score-box green">
-            <div class="score">8.5<small>/10</small></div>
+
+            <div class="score">
+                8.5<small>/10</small>
+            </div>
+
             <div class="bar">
                 <div class="fill" style="width:85%"></div>
             </div>
+
         </div>
 
-        <div class="arrow">›</div>
+        <div class="arrow">
+            ›
+        </div>
+
     </div>
 
 
-    <!-- 3 -->
-    <div class="card">
-        <div class="rank third">3</div>
+    <!-- 3. ŠTĚPÁN -->
 
-        <img class="avatar" src="https://i.pravatar.cc/200?img=13">
+    <div class="card">
+
+        <div class="rank third">
+            3
+        </div>
+
+        <img class="avatar"
+             src="https://i.pravatar.cc/200?img=13">
 
         <div class="info">
-            <div class="name">Štěpán</div>
-            <div class="description">Very solid.</div>
+
+            <div class="name">
+                Štěpán
+            </div>
+
+            <div class="description">
+                Very solid.
+            </div>
+
         </div>
 
         <div class="score-box yellow">
-            <div class="score">8.3<small>/10</small></div>
+
+            <div class="score">
+                8.3<small>/10</small>
+            </div>
+
             <div class="bar">
                 <div class="fill" style="width:83%"></div>
             </div>
+
         </div>
 
-        <div class="arrow">›</div>
+        <div class="arrow">
+            ›
+        </div>
+
     </div>
 
 
-    <!-- 4 -->
-    <div class="card">
-        <div class="rank">4</div>
+    <!-- 4. MAXIM -->
 
-        <img class="avatar" src="https://i.pravatar.cc/200?img=14">
+    <div class="card">
+
+        <div class="rank">
+            4
+        </div>
+
+        <img class="avatar"
+             src="https://i.pravatar.cc/200?img=14">
 
         <div class="info">
-            <div class="name">Maxim</div>
-            <div class="description">Good player.</div>
+
+            <div class="name">
+                Maxim
+            </div>
+
+            <div class="description">
+                Good player.
+            </div>
+
         </div>
 
         <div class="score-box yellow">
-            <div class="score">8.0<small>/10</small></div>
+
+            <div class="score">
+                8.0<small>/10</small>
+            </div>
+
             <div class="bar">
                 <div class="fill" style="width:80%"></div>
             </div>
+
         </div>
 
-        <div class="arrow">›</div>
+        <div class="arrow">
+            ›
+        </div>
+
     </div>
 
 
-    <!-- 5 -->
-    <div class="card">
-        <div class="rank">5</div>
+    <!-- 5. VÍTEK -->
 
-        <img class="avatar" src="https://i.pravatar.cc/200?img=15">
+    <div class="card">
+
+        <div class="rank">
+            5
+        </div>
+
+        <img class="avatar"
+             src="https://i.pravatar.cc/200?img=15">
 
         <div class="info">
-            <div class="name">Vítek</div>
-            <div class="description">Solid performance.</div>
+
+            <div class="name">
+                Vítek
+            </div>
+
+            <div class="description">
+                Solid performance.
+            </div>
+
         </div>
 
         <div class="score-box yellow">
-            <div class="score">7.7<small>/10</small></div>
+
+            <div class="score">
+                7.7<small>/10</small>
+            </div>
+
             <div class="bar">
                 <div class="fill" style="width:77%"></div>
             </div>
+
         </div>
 
-        <div class="arrow">›</div>
+        <div class="arrow">
+            ›
+        </div>
+
     </div>
 
 
-    <!-- 6 -->
-    <div class="card">
-        <div class="rank">6</div>
+    <!-- 6. SAM -->
 
-        <img class="avatar" src="https://i.pravatar.cc/200?img=16">
+    <div class="card">
+
+        <div class="rank">
+            6
+        </div>
+
+        <img class="avatar"
+             src="https://i.pravatar.cc/200?img=16">
 
         <div class="info">
-            <div class="name">Sam</div>
-            <div class="description">Decent player.</div>
+
+            <div class="name">
+                Sam
+            </div>
+
+            <div class="description">
+                Decent player.
+            </div>
+
         </div>
 
         <div class="score-box yellow">
-            <div class="score">7.5<small>/10</small></div>
+
+            <div class="score">
+                7.5<small>/10</small>
+            </div>
+
             <div class="bar">
                 <div class="fill" style="width:75%"></div>
             </div>
+
         </div>
 
-        <div class="arrow">›</div>
+        <div class="arrow">
+            ›
+        </div>
+
     </div>
 
 
-    <!-- 7 -->
-    <div class="card">
-        <div class="rank">7</div>
+    <!-- 7. ANTOLAK -->
 
-        <img class="avatar" src="https://i.pravatar.cc/200?img=17">
+    <div class="card">
+
+        <div class="rank">
+            7
+        </div>
+
+        <img class="avatar"
+             src="https://i.pravatar.cc/200?img=17">
 
         <div class="info">
-            <div class="name">Antolak</div>
-            <div class="description">Good vibes.</div>
+
+            <div class="name">
+                Antolak
+            </div>
+
+            <div class="description">
+                Good vibes.
+            </div>
+
         </div>
 
         <div class="score-box orange">
-            <div class="score">7.4<small>/10</small></div>
+
+            <div class="score">
+                7.4<small>/10</small>
+            </div>
+
             <div class="bar">
                 <div class="fill" style="width:74%"></div>
             </div>
+
         </div>
 
-        <div class="arrow">›</div>
+        <div class="arrow">
+            ›
+        </div>
+
     </div>
 
 
-    <!-- 8 -->
-    <div class="card">
-        <div class="rank">8</div>
+    <!-- 8. KOPECKY -->
 
-        <img class="avatar" src="https://i.pravatar.cc/200?img=18">
+    <div class="card">
+
+        <div class="rank">
+            8
+        </div>
+
+        <img class="avatar"
+             src="https://i.pravatar.cc/200?img=18">
 
         <div class="info">
-            <div class="name">Kopecky</div>
-            <div class="description">Getting there.</div>
+
+            <div class="name">
+                Kopecky
+            </div>
+
+            <div class="description">
+                Getting there.
+            </div>
+
         </div>
 
         <div class="score-box orange">
-            <div class="score">7.1<small>/10</small></div>
+
+            <div class="score">
+                7.1<small>/10</small>
+            </div>
+
             <div class="bar">
                 <div class="fill" style="width:71%"></div>
             </div>
+
         </div>
 
-        <div class="arrow">›</div>
+        <div class="arrow">
+            ›
+        </div>
+
     </div>
 
 
-    <!-- 9 -->
-    <div class="card">
-        <div class="rank">9</div>
+    <!-- 9. BURÁK -->
 
-        <img class="avatar" src="https://i.pravatar.cc/200?img=19">
+    <div class="card">
+
+        <div class="rank">
+            9
+        </div>
+
+        <img class="avatar"
+             src="https://i.pravatar.cc/200?img=19">
 
         <div class="info">
-            <div class="name">Burák</div>
-            <div class="description">Not bad.</div>
+
+            <div class="name">
+                Burák
+            </div>
+
+            <div class="description">
+                Not bad.
+            </div>
+
         </div>
 
         <div class="score-box orange">
-            <div class="score">6.9<small>/10</small></div>
+
+            <div class="score">
+                6.9<small>/10</small>
+            </div>
+
             <div class="bar">
                 <div class="fill" style="width:69%"></div>
             </div>
+
         </div>
 
-        <div class="arrow">›</div>
+        <div class="arrow">
+            ›
+        </div>
+
     </div>
 
 
-    <!-- 10 -->
-    <div class="card">
-        <div class="rank">10</div>
+    <!-- 10. ASSAD -->
 
-        <img class="avatar" src="https://i.pravatar.cc/200?img=20">
+    <div class="card">
+
+        <div class="rank">
+            10
+        </div>
+
+        <img class="avatar"
+             src="https://i.pravatar.cc/200?img=20">
 
         <div class="info">
-            <div class="name">Assad</div>
-            <div class="description">Still in the game.</div>
+
+            <div class="name">
+                Assad
+            </div>
+
+            <div class="description">
+                Still in the game.
+            </div>
+
         </div>
 
         <div class="score-box orange">
-            <div class="score">6.7<small>/10</small></div>
+
+            <div class="score">
+                6.7<small>/10</small>
+            </div>
+
             <div class="bar">
                 <div class="fill" style="width:67%"></div>
             </div>
+
         </div>
 
-        <div class="arrow">›</div>
+        <div class="arrow">
+            ›
+        </div>
+
     </div>
 
 
-    <!-- 11 -->
-    <div class="card">
-        <div class="rank">11</div>
+    <!-- 11. TOMMY -->
 
-        <img class="avatar" src="https://i.pravatar.cc/200?img=21">
+    <div class="card">
+
+        <div class="rank">
+            11
+        </div>
+
+        <img class="avatar"
+             src="https://i.pravatar.cc/200?img=21">
 
         <div class="info">
-            <div class="name">Tommy</div>
-            <div class="description">Keep grinding.</div>
+
+            <div class="name">
+                Tommy
+            </div>
+
+            <div class="description">
+                Keep grinding.
+            </div>
+
         </div>
 
         <div class="score-box red">
-            <div class="score">6.1<small>/10</small></div>
+
+            <div class="score">
+                6.1<small>/10</small>
+            </div>
+
             <div class="bar">
                 <div class="fill" style="width:61%"></div>
             </div>
+
         </div>
 
-        <div class="arrow">›</div>
+        <div class="arrow">
+            ›
+        </div>
+
     </div>
 
+
+    <!-- STATISTIKY -->
 
     <div class="stats">
 
         <div class="stat">
-            <div class="stat-title">PRŮMĚRNÉ HODNOCENÍ</div>
-            <div class="stat-value">7.55/10</div>
+
+            <div class="stat-title">
+                PRŮMĚRNÉ HODNOCENÍ
+            </div>
+
+            <div class="stat-value">
+                7.55/10
+            </div>
+
         </div>
 
+
         <div class="stat">
-            <div class="stat-title">CELKEM HRÁČŮ</div>
-            <div class="stat-value">11</div>
+
+            <div class="stat-title">
+                CELKEM HRÁČŮ
+            </div>
+
+            <div class="stat-value">
+                11
+            </div>
+
         </div>
 
     </div>
 
 </div>
 
+
 <footer>
-    © 2026 COD Friends Ranking
+    © 2026 Friends Ranking
 </footer>
 
 </body>
 </html>
-```
