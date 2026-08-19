@@ -1,9 +1,10 @@
+```html
 <!DOCTYPE html>
 <html lang="cs">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Friends Ranking</title>
+<title>COD Friends Ranking</title>
 
 <style>
 * {
@@ -171,7 +172,6 @@ nav a.active {
 .score {
     font-size: 32px;
     font-weight: 800;
-    color: #a45cff;
 }
 
 .score small {
@@ -190,13 +190,52 @@ nav a.active {
 
 .fill {
     height: 100%;
-    background: #a45cff;
     border-radius: 10px;
 }
 
 .arrow {
     font-size: 35px;
     color: #687083;
+}
+
+.green {
+    color: #35e27a;
+}
+
+.green .fill {
+    background: #35e27a;
+}
+
+.yellow {
+    color: #ffd43b;
+}
+
+.yellow .fill {
+    background: #ffd43b;
+}
+
+.orange {
+    color: #ff8a24;
+}
+
+.orange .fill {
+    background: #ff8a24;
+}
+
+.red {
+    color: #ff4141;
+}
+
+.red .fill {
+    background: #ff4141;
+}
+
+.purple {
+    color: #a45cff;
+}
+
+.purple .fill {
+    background: #a45cff;
 }
 
 .stats {
@@ -231,7 +270,6 @@ footer {
     padding: 35px;
 }
 
-/* MOBIL */
 @media(max-width: 700px) {
 
     header {
@@ -304,7 +342,7 @@ footer {
 <body>
 
 <header>
-    <div class="logo">👑 FRIENDS <span>RANKING</span></div>
+    <div class="logo">👑 COD <span>RANKING</span></div>
 
     <nav>
         <a class="active" href="#">ŽEBŘÍČEK</a>
@@ -320,8 +358,8 @@ footer {
 
     <div class="title">
         <div class="trophy">🏆</div>
-        <h1>ŽEBŘÍČEK <span>KAMARÁDŮ</span></h1>
-        <p>Hodnocení podle 10/10</p>
+        <h1>CALL OF DUTY <span>RANKING</span></h1>
+        <p>Žebříček hráčů podle skillu</p>
     </div>
 
 
@@ -329,18 +367,17 @@ footer {
     <div class="card">
         <div class="rank first">1</div>
 
-        <img class="avatar"
-             src="https://i.pravatar.cc/200?img=12">
+        <img class="avatar" src="https://i.pravatar.cc/200?img=12">
 
         <div class="info">
-            <div class="name">Vmogsu</div>
-            <div class="description">Absolute aura.</div>
+            <div class="name">Zdena</div>
+            <div class="description">Top player.</div>
         </div>
 
-        <div class="score-box">
-            <div class="score">9.4<small>/10</small></div>
+        <div class="score-box green">
+            <div class="score">8.8<small>/10</small></div>
             <div class="bar">
-                <div class="fill" style="width:94%"></div>
+                <div class="fill" style="width:88%"></div>
             </div>
         </div>
 
@@ -352,18 +389,17 @@ footer {
     <div class="card">
         <div class="rank second">2</div>
 
-        <img class="avatar"
-             src="https://i.pravatar.cc/200?img=11">
+        <img class="avatar" src="https://i.pravatar.cc/200?img=11">
 
         <div class="info">
-            <div class="name">Zeta</div>
-            <div class="description">Genetic advantage.</div>
+            <div class="name">Dejv</div>
+            <div class="description">Strong player.</div>
         </div>
 
-        <div class="score-box">
-            <div class="score">8.6<small>/10</small></div>
+        <div class="score-box green">
+            <div class="score">8.5<small>/10</small></div>
             <div class="bar">
-                <div class="fill" style="width:86%"></div>
+                <div class="fill" style="width:85%"></div>
             </div>
         </div>
 
@@ -375,18 +411,17 @@ footer {
     <div class="card">
         <div class="rank third">3</div>
 
-        <img class="avatar"
-             src="https://i.pravatar.cc/200?img=13">
+        <img class="avatar" src="https://i.pravatar.cc/200?img=13">
 
         <div class="info">
-            <div class="name">Trevor</div>
-            <div class="description">Main character energy.</div>
+            <div class="name">Štěpán</div>
+            <div class="description">Very solid.</div>
         </div>
 
-        <div class="score-box">
-            <div class="score">8.1<small>/10</small></div>
+        <div class="score-box yellow">
+            <div class="score">8.3<small>/10</small></div>
             <div class="bar">
-                <div class="fill" style="width:81%"></div>
+                <div class="fill" style="width:83%"></div>
             </div>
         </div>
 
@@ -398,18 +433,17 @@ footer {
     <div class="card">
         <div class="rank">4</div>
 
-        <img class="avatar"
-             src="https://i.pravatar.cc/200?img=14">
+        <img class="avatar" src="https://i.pravatar.cc/200?img=14">
 
         <div class="info">
-            <div class="name">Dillon</div>
-            <div class="description">WEAPON.</div>
+            <div class="name">Maxim</div>
+            <div class="description">Good player.</div>
         </div>
 
-        <div class="score-box">
-            <div class="score">7.8<small>/10</small></div>
+        <div class="score-box yellow">
+            <div class="score">8.0<small>/10</small></div>
             <div class="bar">
-                <div class="fill" style="width:78%"></div>
+                <div class="fill" style="width:80%"></div>
             </div>
         </div>
 
@@ -421,18 +455,17 @@ footer {
     <div class="card">
         <div class="rank">5</div>
 
-        <img class="avatar"
-             src="https://i.pravatar.cc/200?img=15">
+        <img class="avatar" src="https://i.pravatar.cc/200?img=15">
 
         <div class="info">
-            <div class="name">Romulus</div>
-            <div class="description">Where is my mask?</div>
+            <div class="name">Vítek</div>
+            <div class="description">Solid performance.</div>
         </div>
 
-        <div class="score-box">
-            <div class="score">7.2<small>/10</small></div>
+        <div class="score-box yellow">
+            <div class="score">7.7<small>/10</small></div>
             <div class="bar">
-                <div class="fill" style="width:72%"></div>
+                <div class="fill" style="width:77%"></div>
             </div>
         </div>
 
@@ -444,18 +477,17 @@ footer {
     <div class="card">
         <div class="rank">6</div>
 
-        <img class="avatar"
-             src="https://i.pravatar.cc/200?img=16">
+        <img class="avatar" src="https://i.pravatar.cc/200?img=16">
 
         <div class="info">
-            <div class="name">Bass</div>
-            <div class="description">Lord of the vibes.</div>
+            <div class="name">Sam</div>
+            <div class="description">Decent player.</div>
         </div>
 
-        <div class="score-box">
-            <div class="score">6.9<small>/10</small></div>
+        <div class="score-box yellow">
+            <div class="score">7.5<small>/10</small></div>
             <div class="bar">
-                <div class="fill" style="width:69%"></div>
+                <div class="fill" style="width:75%"></div>
             </div>
         </div>
 
@@ -467,18 +499,17 @@ footer {
     <div class="card">
         <div class="rank">7</div>
 
-        <img class="avatar"
-             src="https://i.pravatar.cc/200?img=17">
+        <img class="avatar" src="https://i.pravatar.cc/200?img=17">
 
         <div class="info">
-            <div class="name">Kade</div>
-            <div class="description">Silent but deadly.</div>
+            <div class="name">Antolak</div>
+            <div class="description">Good vibes.</div>
         </div>
 
-        <div class="score-box">
-            <div class="score">6.5<small>/10</small></div>
+        <div class="score-box orange">
+            <div class="score">7.4<small>/10</small></div>
             <div class="bar">
-                <div class="fill" style="width:65%"></div>
+                <div class="fill" style="width:74%"></div>
             </div>
         </div>
 
@@ -490,18 +521,17 @@ footer {
     <div class="card">
         <div class="rank">8</div>
 
-        <img class="avatar"
-             src="https://i.pravatar.cc/200?img=18">
+        <img class="avatar" src="https://i.pravatar.cc/200?img=18">
 
         <div class="info">
-            <div class="name">Lukas</div>
-            <div class="description">Just here for fun.</div>
+            <div class="name">Kopecky</div>
+            <div class="description">Getting there.</div>
         </div>
 
-        <div class="score-box">
-            <div class="score">6.0<small>/10</small></div>
+        <div class="score-box orange">
+            <div class="score">7.1<small>/10</small></div>
             <div class="bar">
-                <div class="fill" style="width:60%"></div>
+                <div class="fill" style="width:71%"></div>
             </div>
         </div>
 
@@ -513,18 +543,17 @@ footer {
     <div class="card">
         <div class="rank">9</div>
 
-        <img class="avatar"
-             src="https://i.pravatar.cc/200?img=19">
+        <img class="avatar" src="https://i.pravatar.cc/200?img=19">
 
         <div class="info">
-            <div class="name">Max</div>
-            <div class="description">Tryna be good.</div>
+            <div class="name">Burák</div>
+            <div class="description">Not bad.</div>
         </div>
 
-        <div class="score-box">
-            <div class="score">5.5<small>/10</small></div>
+        <div class="score-box orange">
+            <div class="score">6.9<small>/10</small></div>
             <div class="bar">
-                <div class="fill" style="width:55%"></div>
+                <div class="fill" style="width:69%"></div>
             </div>
         </div>
 
@@ -536,18 +565,39 @@ footer {
     <div class="card">
         <div class="rank">10</div>
 
-        <img class="avatar"
-             src="https://i.pravatar.cc/200?img=20">
+        <img class="avatar" src="https://i.pravatar.cc/200?img=20">
 
         <div class="info">
-            <div class="name">Jay</div>
-            <div class="description">Last but not least.</div>
+            <div class="name">Assad</div>
+            <div class="description">Still in the game.</div>
         </div>
 
-        <div class="score-box">
-            <div class="score">4.7<small>/10</small></div>
+        <div class="score-box orange">
+            <div class="score">6.7<small>/10</small></div>
             <div class="bar">
-                <div class="fill" style="width:47%"></div>
+                <div class="fill" style="width:67%"></div>
+            </div>
+        </div>
+
+        <div class="arrow">›</div>
+    </div>
+
+
+    <!-- 11 -->
+    <div class="card">
+        <div class="rank">11</div>
+
+        <img class="avatar" src="https://i.pravatar.cc/200?img=21">
+
+        <div class="info">
+            <div class="name">Tommy</div>
+            <div class="description">Keep grinding.</div>
+        </div>
+
+        <div class="score-box red">
+            <div class="score">6.1<small>/10</small></div>
+            <div class="bar">
+                <div class="fill" style="width:61%"></div>
             </div>
         </div>
 
@@ -559,12 +609,12 @@ footer {
 
         <div class="stat">
             <div class="stat-title">PRŮMĚRNÉ HODNOCENÍ</div>
-            <div class="stat-value">6.92/10</div>
+            <div class="stat-value">7.55/10</div>
         </div>
 
         <div class="stat">
-            <div class="stat-title">CELKEM HODNOCENÝCH</div>
-            <div class="stat-value">10</div>
+            <div class="stat-title">CELKEM HRÁČŮ</div>
+            <div class="stat-value">11</div>
         </div>
 
     </div>
@@ -572,8 +622,9 @@ footer {
 </div>
 
 <footer>
-    © 2026 Friends Ranking
+    © 2026 COD Friends Ranking
 </footer>
 
 </body>
 </html>
+```
